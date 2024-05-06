@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #eeeeec;
+    display: flex;
+    align-items: center;
+}
+.container{
+    margin: auto;
+}
+.kartprofil{
+    width: 320px;
+    height: 540px;
+    background-color: #fdfeff;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px gray;
+    float: left;
+}
+.kartprofil1{
+    background-color: #31394d;
+    box-shadow: 1px 1px 20px 5px gray;
+    display: none;
+    float: left;
+}
+.temadegis{
+    height: 40px;
+    width: 80px;
+    background-color: #cccccc;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;  
+}
+#kutu{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 2.5px;
+    margin-top: 2.9px;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    transition:transform 0.30s;
+}
+#kart-ust1{
+    background-color: #31394d;
+}
+.kart-ust{
+    height: 55px;
+    width: 320px;
+    background-color: white;
+    border-radius:10px;
+}
+#ok{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    padding: 7px;
+}
+#kalp{
+    padding-top: 20px;
+    margin-left: 180px;
+}
+#nokta{
+    float: right;
+    padding: 20px;
+}
+.kart-orta{
+    height: 320px;
+    width: 320px;
+}
+.kart-alt{
+    width: 320px;
+    height: 165px;
+}
+.orta-img{
+    height: 125px;
+    width: 320px;
+}
+.imgp {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover; /* Resmin boyutunu korumak için */
+    box-shadow: 5px 5px 15px gray;
+    float: left;
+    margin:0 97.5px;
+}
+.imgp img{
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.kart-orta h1{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 150px;
+    text-align: center;
+}
+.kart-orta h2{
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+.yazilar1{
+    color: white;
+}
+.yazilar1 h3{
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 5px;
+    text-align: center;
+}
+.buton button{
+    height: 42px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    background-color: #d11475;
+    color: white;
+    box-shadow:inset -3px -6px 20px -10px white;
+    margin-left: 95px;
+    margin-top: 15px;
+}
+.yazilar h3{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 5px;
+    text-align: center;
+}
+.kart-alt img{
+    border-radius: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.kart-alt h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+.alt-1{
+    width: 106px;
+    height: 165px;
+    float: left;
+}
+.kart-alt h2{
+    font-weight: bold;
+    font-size: 12px;
+}
+.kart-alt1 h1{
+    color: white;
+}
